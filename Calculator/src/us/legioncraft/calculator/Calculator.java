@@ -11,6 +11,7 @@ public class Calculator {
   
   public void startFrame(){
     frame = new JFrame();
+    bX = new JButton("*");
     
     frame.setSize(400, 500);
   }
